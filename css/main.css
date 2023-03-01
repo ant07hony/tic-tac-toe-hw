@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #board {
+    display: flex;
+    width: 80vmin;
+  /* vmin - calculates the percentage of the shortest side of your viewport */ 
+    flex-wrap: wrap;
+    gap: 1vmin;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  .square{
+    font-size: 50 px;
+    width: 25vmin;
+    height: 25vmin;
+    border: 1px solid rgb(161, 168, 170);
+    
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .button {
+    margin: 0 auto;
+    display: block;
+
+  }
+
+  div > .flex-ctr { /* used to center content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
